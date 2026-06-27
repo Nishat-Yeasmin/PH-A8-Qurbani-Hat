@@ -52,7 +52,7 @@ export default function Navbar() {
               />
 
                  <Link
-                href="/my-profile"
+                href="/profile"
                 className="font-semibold"
               >
                 Profile

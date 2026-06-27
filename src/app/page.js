@@ -3,6 +3,7 @@ import animals from "@/data/animals.json";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/assets/logo.png";
+import HowItWorks from "@/components/HowItWorks";
 
 export default function HomePage() {
 
@@ -205,6 +206,7 @@ export default function HomePage() {
                 </div>
 
             </section>
+            <HowItWorks/>
 
         </div>
     );
