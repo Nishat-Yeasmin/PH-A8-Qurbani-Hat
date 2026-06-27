@@ -10,10 +10,6 @@ A modern Qurbani animal marketplace built with Next.js where users can browse, v
 
 ---
 
-##  Project Purpose
-
-This project is built to simplify the process of buying Qurbani animals online.  
-Users can view available animals, check details like price, weight, breed, and book animals easily.
 
 ---
 
