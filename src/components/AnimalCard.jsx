@@ -62,7 +62,7 @@ const AnimalCard = ({ animal }) => {
                 {/* Details Button */}
                 <Link href={`/details/${id}`}>
 
-                    <button className="w-full bg-green-700 hover:bg-green-800 text-white py-3 rounded-xl font-semibold transition">
+                    <button className="cursor-pointer w-full bg-green-700 hover:bg-green-800 text-white py-3 rounded-xl font-semibold transition">
 
                         View Details
 

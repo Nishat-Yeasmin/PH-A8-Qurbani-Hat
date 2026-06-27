@@ -9,7 +9,7 @@
     "age": 3,
     "location": "Bogura",
     "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural food.",
-    "image": "https://i.ibb.co/4n0xYw6/cow1.jpg",
+    "image": "https://i.ibb.co.com/KzGzVC8C/Shahiwal-cow.jpg",
     "category": "Large Animal"
   },
   {
@@ -22,9 +22,10 @@
     "age": 2,
     "location": "Sylhet",
     "description": "Strong and healthy Black Bengal goat for Qurbani.",
-    "image": "https://i.ibb.co/fY1L7tM/goat1.jpg",
+    "image": "https://i.ibb.co.com/C5znDFkH/Jamunapari.jpg",
     "category": "Small Animal"
   },
+ 
   {
     "id": 3,
     "name": "Sahiwal Cow",
@@ -35,20 +36,20 @@
     "age": 4,
     "location": "Rajshahi",
     "description": "Premium quality Sahiwal cow with proper care.",
-    "image": "https://i.ibb.co/8x7q5n5/cow2.jpg",
+    "image": "https://i.ibb.co.com/sJCdv8GC/black-cow.jpg",
     "category": "Large Animal"
   },
   {
     "id": 4,
-    "name": "Jamunapari Goat",
-    "type": "Goat",
+    "name": "Jamunapari Sheep",
+    "type": "Sheep",
     "breed": "Jamunapari",
     "price": 40000,
     "weight": 60,
     "age": 3,
     "location": "Dhaka",
     "description": "Large Jamunapari goat suitable for family Qurbani.",
-    "image": "https://i.ibb.co/Y8R4M6Q/goat2.jpg",
+    "image": "https://i.ibb.co.com/S40g8w6W/sheep.jpg",
     "category": "Small Animal"
   },
   {
@@ -61,7 +62,7 @@
     "age": 5,
     "location": "Khulna",
     "description": "Imported Brahman bull with excellent health condition.",
-    "image": "https://i.ibb.co/Jc6yF7j/cow3.jpg",
+    "image": "https://i.ibb.co.com/tpy729QH/Deshi-Shahi-sheep.jpg",
     "category": "Large Animal"
   },
   {
@@ -74,7 +75,7 @@
     "age": 2,
     "location": "Mymensingh",
     "description": "Affordable and healthy deshi goat for Qurbani.",
-    "image": "https://i.ibb.co/jy0jJ9v/goat3.jpg",
+    "image": "https://i.ibb.co.com/JWrGnrPk/deshi-goat.jpg",
     "category": "Small Animal"
   }
 ]
