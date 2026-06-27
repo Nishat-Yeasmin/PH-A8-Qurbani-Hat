@@ -1,8 +1,6 @@
 import AnimalCard from "@/components/AnimalCard";
 import animals from "@/data/animals.json";
 import Link from "next/link";
-import Image from "next/image";
-import logo from "@/assets/logo.png";
 
 export default function HomePage() {
 
@@ -47,13 +45,11 @@ export default function HomePage() {
                     {/* Right Image */}
                     <div>
 
-                        <Image
-                            src={logo}
-                            width={600}
-                            height={400}
+                        <img
+                            src="https://i.ibb.co.com/x7P24fL/cow-banner.jpg"
                             alt="banner"
-                            className="rounded-3xl shadow-xl w-full"/>
-                        
+                            className="rounded-3xl shadow-xl w-full"
+                        />
 
                     </div>
 

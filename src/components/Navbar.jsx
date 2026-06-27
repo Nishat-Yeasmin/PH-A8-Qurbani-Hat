@@ -3,11 +3,17 @@
 import Link from "next/link";
 import Image from 'next/image';
 import logo from '@/assets/logo.png';
+import { authClient } from "@/lib/auth-client";
 
 export default function Navbar() {
 
+    const { data: session } = authClient.useSession();
+
+  const handleLogout = async () => {
+    await authClient.signOut();
+  };
   // Temporary user
-  const user = null;
+  // const user = null;
 
   return (
     <nav className="bg-red-100 text-gray-800 px-6 py-4">
@@ -35,18 +41,27 @@ export default function Navbar() {
           </Link>
 
           {/* If Logged In */}
-          {user ? (
+          {session?.user ? (
             <div className="flex items-center gap-4">
 
               {/* Avatar */}
               <img
-                src="https://i.ibb.co/4pDNDk1/avatar.png"
+                src={session.user.image}
                 alt="avatar"
                 className="w-10 h-10 rounded-full border-2 border-white"
               />
 
+                 <Link
+                href="/my-profile"
+                className="font-semibold"
+              >
+                Profile
+              </Link>
+
+
               {/* Logout */}
-              <button className="bg-red-500 px-4 py-2 rounded-lg hover:bg-red-600">
+              <button
+              onClick={handleLogout} className="bg-red-500 px-4 py-2 rounded-lg hover:bg-red-600">
                 Logout
               </button>
             </div>

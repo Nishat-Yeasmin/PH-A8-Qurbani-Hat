@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Deshi Shahi Cow",
+    "type": "Cow",
+    "breed": "Local Deshi",
+    "price": 120000,
+    "weight": 280,
+    "age": 3,
+    "location": "Bogura",
+    "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural food.",
+    "image": "https://i.ibb.co/4n0xYw6/cow1.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 2,
+    "name": "Black Bengal Goat",
+    "type": "Goat",
+    "breed": "Black Bengal",
+    "price": 25000,
+    "weight": 45,
+    "age": 2,
+    "location": "Sylhet",
+    "description": "Strong and healthy Black Bengal goat for Qurbani.",
+    "image": "https://i.ibb.co/fY1L7tM/goat1.jpg",
+    "category": "Small Animal"
+  },
+  {
+    "id": 3,
+    "name": "Sahiwal Cow",
+    "type": "Cow",
+    "breed": "Sahiwal",
+    "price": 180000,
+    "weight": 350,
+    "age": 4,
+    "location": "Rajshahi",
+    "description": "Premium quality Sahiwal cow with proper care.",
+    "image": "https://i.ibb.co/8x7q5n5/cow2.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 4,
+    "name": "Jamunapari Goat",
+    "type": "Goat",
+    "breed": "Jamunapari",
+    "price": 40000,
+    "weight": 60,
+    "age": 3,
+    "location": "Dhaka",
+    "description": "Large Jamunapari goat suitable for family Qurbani.",
+    "image": "https://i.ibb.co/Y8R4M6Q/goat2.jpg",
+    "category": "Small Animal"
+  },
+  {
+    "id": 5,
+    "name": "Brahman Bull",
+    "type": "Cow",
+    "breed": "Brahman",
+    "price": 220000,
+    "weight": 420,
+    "age": 5,
+    "location": "Khulna",
+    "description": "Imported Brahman bull with excellent health condition.",
+    "image": "https://i.ibb.co/Jc6yF7j/cow3.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 6,
+    "name": "Deshi Goat",
+    "type": "Goat",
+    "breed": "Local Deshi",
+    "price": 18000,
+    "weight": 35,
+    "age": 2,
+    "location": "Mymensingh",
+    "description": "Affordable and healthy deshi goat for Qurbani.",
+    "image": "https://i.ibb.co/jy0jJ9v/goat3.jpg",
+    "category": "Small Animal"
+  }
+]
